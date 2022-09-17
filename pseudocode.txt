@@ -10,8 +10,13 @@ ELSE
     READ AND WRITE "Amount of Food" with number
 END IF
 Press button "food confirmation and add to cart"
-Pess button "cart"
+IF WHILE want to add other food menu "menu"
+         Do "Choose food menu"
+ELSE
+    Press button "cart"  
+END IF
 READ AND WRITE "Enter shipping address" with string
+READ AND WRITE "Choose payment method" with string
 Press button "make payment"
 Finish
     

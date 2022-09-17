@@ -23,5 +23,6 @@ IF WHILE "Choose payment method" not enough balance
 ELSE
     Press button "make payment"
 END IF
+READ AND WRITE "proof of payment" with string
 Finish
     

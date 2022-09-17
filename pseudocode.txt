@@ -17,6 +17,11 @@ ELSE
 END IF
 READ AND WRITE "Enter shipping address" with string
 READ AND WRITE "Choose payment method" with string
-Press button "make payment"
+IF WHILE "Choose payment method" not enough balance
+          PRINT "not enought balance"
+          DO "READ AND WRITE "Choose payment method" with string"
+ELSE
+    Press button "make payment"
+END IF
 Finish
     

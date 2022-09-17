@@ -1,14 +1,17 @@
 Start
 Turn on the phone
 Press button dhen-food.app
-Press button "food menu"
+Press button "menu list food"
 press button "food name"
 IF WHILE "Food Name" Food not available "menu"
-          PRINT "Food not available"
+          PRINT "food not available"
           Do "Choose food menu"
 ELSE
-    READ AND WRITE "amount of food" with number
+    READ AND WRITE "Amount of Food" with number
 END IF
+Press button "food confirmation and add to cart"
+Pess button "cart"
+READ AND WRITE "Enter shipping address" with string
 Press button "make payment"
 Finish
     
